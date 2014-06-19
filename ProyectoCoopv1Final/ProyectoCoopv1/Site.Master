@@ -1,0 +1,82 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProyectoCoopv1.SiteMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Cooperativa la Candelaria</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="CSS/webStyle.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/facturacion.css" rel="stylesheet" type="text/css" />
+    <link href="icons/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="icons/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+
+<!--Header-->
+        <div id="header">
+            <a href="/"><asp:Image ID="Image1" runat="server" CssClass="logo" ImageUrl="~/IMG/logo.PNG"></asp:Image></a>
+            <div id="socialities">
+                <ul>
+                    <li><a href="#"><asp:Image ID="Image2" runat="server" ImageUrl="~/IMG/facebookp.png"></asp:Image></a></li>
+                    <li><a href="#"><asp:Image ID="Image3" runat="server" ImageUrl="~/IMG/twitterp.png"></asp:Image></a></li>
+                    <li><a href="#"><asp:Image ID="Image4" runat="server" ImageUrl="~/IMG/linkedinp.png"></asp:Image></a></li>
+                </ul>
+            </div>
+
+            <div id="iniciarSesion">
+            <div class="loginDisplay">
+                <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Iniciar sesión</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        User: <b><asp:LoginName ID="HeadLoginName" runat="server" /></b>
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+            </div>
+            </div>
+<!--Menu-->            
+            <div id="menu">
+                <ul>
+                    <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="/Articulos/"><i class="fa fa-tags"></i> Artículos</a></li>
+                    <li><a href="/Socios/"><i class="fa fa-group"></i> Socios</a></li>
+                    <li><a href="/Facturacion/"><i class="fa fa-shopping-cart"></i> Facturación</a></li>
+                    <li><a href="/About/"><i class="fa fa-info-circle"></i> Acerca de</a></li>
+                    <li><a href="#informacion"><i class="fa fa-envelope"></i> Contactar</a></li>
+                </ul>
+            </div>
+        </div>
+<!--Cuerpo-->
+        <div id="cuerpo">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+<!--Pie-->
+        <div id="footer">
+            <div id="informacion">
+                <h2><i class="fa fa-envelope"></i> Contacta:</h2>
+                <h3><i class="fa fa-envelope-o"></i> Dirección:</h3>
+                Marqués de Celada nº X
+                <h3><i class="fa fa-phone"></i> Teléfono:</h3>
+                922-25-00-33
+            </div>
+            <div id="redesSociales">
+                <h3><i class="fa fa-comments"></i> Redes Sociales</h3>
+                <a href="#"><asp:Image ID="Image5" runat="server" ImageUrl="~/IMG/facebookp.png"></asp:Image></a>
+                <a href="#"><asp:Image ID="Image6" runat="server" ImageUrl="~/IMG/twitterp.png"></asp:Image></a>
+                <a href="#"><asp:Image ID="Image7" runat="server" ImageUrl="~/IMG/linkedinp.png"></asp:Image></a>
+            </div>
+            <div id="copyright">
+            2013 Sociedad Cooperativa del Campo La Candelaria. Todos los derechos reservados.
+            </div>    
+        </div>
+    </form>
+</body>
+</html>

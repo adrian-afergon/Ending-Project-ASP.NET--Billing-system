@@ -1,0 +1,54 @@
+﻿/* Mis estilos  
+----------------------------------------------------------*/
+
+td input 
+{
+    width:5em;
+    }
+
+#elementos, #factura
+{
+    float:left;
+    width:49.5%;
+    }  
+#factura
+{
+    float:left;
+    width:45.5%;
+    border:solid 1px black;
+    padding:15px;
+    }
+ 
+#formIzquierdo
+{
+    float:left;
+    width:50%;
+    }
+
+
+#MainContent_imgProducto
+{
+    float:left;
+    margin-right:25px;
+    }    
+#imgProducto
+{
+    float:left;
+    margin-right:25px;
+    }
+    
+    #separador
+    {
+        width:100%;
+        clear:left;
+        }
+        
+        #factura a
+        {
+            color:#83062b;
+            transition: color 300ms ease-out 0s;
+            }
+        #factura a:hover
+        {
+            color:#55021B;
+            }

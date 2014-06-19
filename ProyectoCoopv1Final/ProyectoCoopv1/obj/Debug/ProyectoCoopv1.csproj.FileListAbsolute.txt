@@ -1,0 +1,15 @@
+C:\ProyectosVisualStudio\ProyectoCoopv1\ProyectoCoopv1\bin\ProyectoCoopv1.dll
+C:\ProyectosVisualStudio\ProyectoCoopv1\ProyectoCoopv1\bin\ProyectoCoopv1.pdb
+C:\ProyectosVisualStudio\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ResolveAssemblyReference.cache
+C:\ProyectosVisualStudio\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.dll
+C:\ProyectosVisualStudio\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.pdb
+C:\Users\Usuario\Desktop\ProyectoCoopv1\ProyectoCoopv1\bin\ProyectoCoopv1.dll
+C:\Users\Usuario\Desktop\ProyectoCoopv1\ProyectoCoopv1\bin\ProyectoCoopv1.pdb
+C:\Users\Usuario\Desktop\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.dll
+C:\Users\Usuario\Desktop\ProyectoCoopv1\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.pdb
+C:\Users\Usuario\Desktop\ProyectoCoopv1diseño\ProyectoCoopv1\bin\ProyectoCoopv1.dll
+C:\Users\Usuario\Desktop\ProyectoCoopv1diseño\ProyectoCoopv1\bin\ProyectoCoopv1.pdb
+C:\Users\Usuario\Desktop\ProyectoCoopv1diseño\ProyectoCoopv1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\ProyectoCoopv1diseño\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.dll
+C:\Users\Usuario\Desktop\ProyectoCoopv1diseño\ProyectoCoopv1\obj\Debug\ProyectoCoopv1.pdb

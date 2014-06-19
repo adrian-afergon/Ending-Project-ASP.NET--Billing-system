@@ -1,0 +1,4 @@
+El manual de usuario es un pdf incluido dentro del Proyecto.
+Para abrirlo ir a la sección de "Acerca de" y acceder al enlace que pone Manual de usuario.
+
+O bien, abrir la carpeta ProyectoCoopv1 de este directorio y abrir el fichero "Manual de usuario de la aplicación.pdf"
